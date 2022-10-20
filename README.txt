@@ -1,0 +1,1 @@
+This repository is for all my website projects that will then be used to create my portfolio in the future.
