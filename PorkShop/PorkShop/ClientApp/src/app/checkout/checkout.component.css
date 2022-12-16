@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+}
+
+.main-div {
+  background: #ececec; /*change background color here*/
+  width: 960px;
+  margin: 0 auto;
+  min-height: 550px; /*minimum page height*/
+  height: auto;
+}
+
+#column1, #column2, #column3 {
+  float: left;
+  padding: 0 9px;
+}
+
+#column1, #column3 {
+  width: 25%;
+}
+
+#column2 {
+  width: 44%;
+}
+
+.div-col1 {
+  border: 1px solid #ccc; /*change border color*/
+  padding: 5px;
+}
+
+.div-col2 {
+  border-top: 1px solid #ccc; /*change border color*/
+  border-bottom: 1px solid #ccc; /*change border color*/
+  padding: 5px;
+}
+
+#footer {
+  clear: both;
+}
+
+#image {
+  margin-left: auto;
+}
+.wrapper {
+  margin-top: 100px;
+}

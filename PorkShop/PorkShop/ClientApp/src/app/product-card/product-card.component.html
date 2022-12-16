@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row col">
+    <ng-container *ngFor="let item of productList">
+      <div class="shadow-lg col-sm-3">
+        <div class="card">
+            <div img="img.wrapper">
+            <img class="card-img-top" src="assets/images/meat_default.png" />
+            </div>
+          <div class="card-body">
+            <h2>{{item.Name}}</h2>
+            <h6>Price/Kg: <strong style="color:green;"> ${{item.Price}}</strong></h6>
+            <div class="btn-container">
+              <button class="atc-btn" (click)="addtocart(item)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+h2 {
+  text-align: center;
+  color: black;
+}
+
+h5 {
+  font-weight: normal;
+  text-align: center;
+}
+.wrapper {
+    align-items:center;
+    text-align:center;
+    margin-top:150px;   
+}
+h1 {
+  font-size: 100px;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+  .shop-btn:hover {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .shop-btn:active {
+    background-color: darkblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
