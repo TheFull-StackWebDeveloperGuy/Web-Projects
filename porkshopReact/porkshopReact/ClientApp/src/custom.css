@@ -1,0 +1,203 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.container {
+    
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h4 {
+    font-weight: normal;
+    text-align: center;
+    color:red;
+}
+
+h5 {
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+h6 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 5px rgb(145, 145, 145);
+}
+.btn-container {
+    text-align: center;
+}
+
+.minus-btn:hover {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0px 5px 5px rgb(145, 145, 145);
+    background-color: red;
+}
+
+.plus-btn:hover {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0px 5px 5px rgb(145, 145, 145);
+    background-color: lawngreen;
+}
+
+.atc-btn:hover {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0px 5px 5px rgb(145, 145, 145);
+    background-color: yellow;
+}
+
+.minus-btn:active {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.plus-btn:active {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.atc-btn:active {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-container button {
+    margin: 0;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0px 5px 5px rgb(145, 145, 145);
+}
+
+.card:hover img {
+    transform: scale(1, 1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out
+}
+
+.card img {
+    transform: scale(.8, .8);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.image.wrapper {
+    overflow: hidden;
+}
+
+.quantity-box {
+    width: 10%;
+    text-align: center;
+    margin-left: 5px;
+}
+.wrapper {
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shop-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.shop-btn:hover {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.shop-btn:active {
+    background-color: darkblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.gif-logo {
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius:25%;
+}

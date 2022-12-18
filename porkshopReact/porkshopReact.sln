@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "porkshopReact", "porkshopReact\porkshopReact.csproj", "{1B14B945-8717-4C40-B546-FE3B938813BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B14B945-8717-4C40-B546-FE3B938813BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B14B945-8717-4C40-B546-FE3B938813BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B14B945-8717-4C40-B546-FE3B938813BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B14B945-8717-4C40-B546-FE3B938813BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC99DCD9-3198-48F7-9141-07A34E1DB102}
+	EndGlobalSection
+EndGlobal
